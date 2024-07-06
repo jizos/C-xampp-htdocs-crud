@@ -1,0 +1,78 @@
+/*Aplicar nuevos estilos a la pagina web de modo que no sea necesario usar el estilado de pico css
+reducir el tamaño de los formularios de forma que sean mas centrados y legibles
+usar boxmodel
+crear funciones para las operaciones crud para no hacerlo desde la misma vista MVC
+aplicar MVC para mejor legibilidad del codigo*/
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+.main {
+    padding: 20px;
+}
+
+.main h1 {
+    text-align: center;
+}
+
+.search-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-form input[type="text"], .search-form select, .search-form input[type="submit"] {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+}
